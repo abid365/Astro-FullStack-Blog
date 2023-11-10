@@ -1,7 +1,17 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+// const foregroundColor = "hsl(20, 50%, 50%)";
+// const backgroundColor = "hsl(200, 50%, 50%)";
 ---
 
 <MainLayout title="Home">
   <p>Hi from home</p>
 </MainLayout>
+
+<!-- to make global style pass the property is:global -->
+<!-- <style define:vars={{ foregroundColor, backgroundColor }}>
+  p {
+    background-color: var(--backgroundColor);
+    color: var(--foregroundColor);
+  }
+</style> -->
